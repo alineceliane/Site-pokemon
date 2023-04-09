@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta charset="UTF-8" />
+    <title>site pokemon</title>
+    <link rel="stylesheet" href="testantopokemoncss.css" type="text/css">
+</head>
+  <body>
+    <div class="back_opacity">
+      <h1> Bem vindo ao seu site pokemon</h1>
+    </div>
+      <div id="main_box">
+        
+        <p id="title_login">Login </p>
+        <div>
+        <a id="oak" href="sitepokemon.html" target="_blank" > <img src="carvalho.png" style="width: 110px;" class="media-object-oak" > </a>
+        </div>
+        <p id="tittle_cad">Cadastro pokemon </p>
+        <div> 
+            <a id="pokeball"  href="cadastropokemon.html" target="_blank" ><img src="pokebola.png" class="media-object"></a>
+        </div>
+        
+      </div>
+  </body>
+  
+
+</html>
