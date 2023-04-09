@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+    <meta charset="UTF-8" />
+    <title>Mestre pokemon</title>
+    <link rel="stylesheet" href="pokemon.css" type="text/css">
+    <link href="https://fonts.cdnfonts.com/css/roses-are-ff0000" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+        <div id="main_tittles">
+            <div id="title_login">
+                <h1 > Login </h1>
+            </div>
+            <div id="title_cadastro"> 
+                <h1> Cadastre-se </h1>
+            </div>
+        </div>
+        
+        <div id="main_block">
+            <div id="login_block">
+                <label for="IDmeste">ID meste</label>
+                <input type="text" name="IDmeste" id="IDmeste" placeholder="Digite o seu ID"></br></br>
+    
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha"></br></br>
+    
+                <input type="submit" value="Entrar" > 
+            </div> <br>
+    
+            <div id="cad_block">
+                
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"></br></br>
+    
+                <label for="IDmeste">ID meste</label>
+                <input type="text" name="IDmeste" id="IDmeste" placeholder="Digite o seu ID"></br></br>
+    
+                <label for="atuacao" > Região de atuação </label> </br>
+                <select name="atuacao" id="estado" >
+                 <option value="null">--Nenhum-- </option> 
+                 <option value="Kanto"> Kanto </option>  
+                 <option value="Johto"> Johto </option>  
+                 <option value="Hoenn"> Hoenn </option>  
+                 <option value="Sinnoh"> Sinnoh </option>  
+                 <option value="Unova"> Unova </option>  
+                 <option value="Kalos"> Kalos </option>    
+                </select> 
+    
+                <input type="submit" value="Cadastrar" >
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
