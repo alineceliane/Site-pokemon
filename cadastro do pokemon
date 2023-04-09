@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>cadastro pokemon</title>
+    <link rel="stylesheet" href="cadastropokemoncss.css" type="text/css">
+</head>
+
+<body> 
+    <center>
+
+
+        <div id="title">
+            <h1>  Cadastre seu pokémon</h1></div>
+        <div>
+            <div id="cad"> 
+                <label for="name">Nome do Pokémon</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome"></br></br>
+    
+                <label for="nasc">Data de captura</label><br/>
+                <input type="date" name="nasc" id="nasc"><br/><br/>
+
+                <label for="pokebolas">Quantas pokebolas foram utilizadas?</label><br/>
+                <input type="number" name="pokebolas" id="pokebolas"><br/><br/>
+    
+                <label for="type" > Tipo do pokemon </label> </br>
+                    <select name="type" id="type" >
+                     <option value="null">--Nenhum-- </option> 
+                     <option value="Normal"> Normal </option>  
+                     <option value="Fogo"> Fogo </option>  
+                     <option value="Água"> Água </option>  
+                     <option value="Ar"> Ar </option>  
+                     <option value="Planta"> Planta </option>  
+                     <option value="Elétrico"> Elétrico </option>  
+                     <option value="Gelo"> Gelo </option>  
+                    </select> <br></br>
+    
+                    
+                    <label for="mensagem">Alguma informação a acrescenar sobre a captura? </label><br>
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite aqui*" required></textarea> <br>
+
+                    <input type="submit" value="Cadastrar" >
+        
+    
+            </div>
+    
+        </div>
+    </center>
+
+     
+</body>
+</html>
